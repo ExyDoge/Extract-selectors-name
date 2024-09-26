@@ -50,5 +50,5 @@ tellraw @s [\
     {"nbt": "value.split[47]","storage": "sel.temp","color":"#cccc88"},\
     {"nbt": "value.split[48]","storage": "sel.temp","color":"#ccccaa"},\
     {"nbt": "value.split[49]","storage": "sel.temp","color":"#cccccc"},\
-    {"text":"\n its name's length is ", "color":"dark_purple"},{"storage":"minecraft:sel.temp","nbt": "value.len","color":"green"}\
+    {"text":"\n 名字长度为 ", "color":"dark_purple"},{"storage":"minecraft:sel.temp","nbt": "value.len","color":"green"}\
 ]
