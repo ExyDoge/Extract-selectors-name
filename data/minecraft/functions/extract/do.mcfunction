@@ -1,5 +1,5 @@
 data merge storage sel.temp {exist:0,notself:0,sel:'@s',success:0,value:{name:'',len:0,split:[\
-'','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','',]}}
+'','','']}}
 scoreboard players set #start sel.temp 9
 scoreboard players set #end sel.temp 10
 scoreboard players set #do sel.temp 0

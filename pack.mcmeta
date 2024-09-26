@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 48,
-        "description": "A datapack for 1.21.x to extract the selectors' name and do some simple opreation\nby ExyDoge."
+        "pack_format": 18,
+        "description": "A datapack for 1.20.2 - 1.20.6 to extract the selectors' name and do some simple opreation\nby ExyDoge."
     }
 }

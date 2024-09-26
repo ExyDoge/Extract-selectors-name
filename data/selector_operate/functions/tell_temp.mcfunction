@@ -49,6 +49,7 @@ tellraw @s [\
     {"nbt": "value.split[46]","storage": "sel.temp","color":"#cccc66"},\
     {"nbt": "value.split[47]","storage": "sel.temp","color":"#cccc88"},\
     {"nbt": "value.split[48]","storage": "sel.temp","color":"#ccccaa"},\
-    {"nbt": "value.split[49]","storage": "sel.temp","color":"#cccccc"},\
-    {"text":"\n 名字长度为 ", "color":"dark_purple"},{"storage":"minecraft:sel.temp","nbt": "value.len","color":"green"}\
+    {"nbt": "value.split[49]","storage": "sel.temp","color":"#cccccc"}\
 ]
+execute if score #do sel.temp matches 51.. run tellraw @s [{"text":"..."}]
+tellraw @s [{"text":"\n名字长度为 ", "color":"dark_purple"},{"storage":"minecraft:sel.temp","nbt": "value.len","color":"green"}]
