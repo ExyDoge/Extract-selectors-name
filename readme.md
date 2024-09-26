@@ -7,4 +7,3 @@ This datapack is for Minecraft Java Edition 1.21 + to extract selector's names.
 4. ===Requirement for the selector===
     1. The selector must point to a single entity.
     2. The entity must have a custom name.(You can't do this with a dropped item.)
-    3. The max stored length of the name is 50.

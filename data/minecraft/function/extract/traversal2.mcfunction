@@ -1,0 +1,1 @@
+data modify storage sel.temp text append from storage sel.temp value.split[]

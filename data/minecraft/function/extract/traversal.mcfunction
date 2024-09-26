@@ -4,7 +4,7 @@ execute if data storage minecraft:sel.extract {temp:'"'} run return 0
 
 
 
-$data modify storage minecraft:sel.temp value.split[$(do)] set from storage minecraft:sel.extract temp
+data modify storage minecraft:sel.temp value.split append from storage minecraft:sel.extract temp
 
 function extract/conclude with storage minecraft:sel.extract
 
