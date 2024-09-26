@@ -1,4 +1,4 @@
-本数据包供1.21+的Minecraft Java版使用。
+本数据包供1.20.2 - 1.20.6的Minecraft Java版使用。
 # 使用方法
 1. 将本数据包放入世界数据包(datapacks)文件夹中。
 2. 如果作为玩家使用，使用/function selector_operate:get_name {selector:'[CustomSelector(limit=1)]'}以获取对应实体的名字，使用/function selector_operate:tell_temp以显示结果。
